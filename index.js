@@ -21,15 +21,27 @@ function colorDateDependingOnAge() {
         let calculatedDifference = calculateDifference(currentYear, lastFourChars);
 
         if (calculatedDifference <= 2 && calculatedDifference >= 0) {
-            fClass[i].style.backgroundColor = "green";
+            fClass[i].style.backgroundColor = "#c1fda6";
+            fClass[i].style.border = "1px solid green";
+            fClass[i].style.margin = "0px 5px 0px 0px";
+            fClass[i].style.padding = "1px";
+            fClass[i].innerHTML = currentSpanData;
         }
 
         else if (calculatedDifference > 5) {
-            fClass[i].style.backgroundColor = "red";
+            fClass[i].style.backgroundColor = "#fda6a6";
+            fClass[i].style.border = "1px solid red";
+            fClass[i].style.margin = "0px 5px 0px 0px";
+            fClass[i].style.padding = "1px";
+            fClass[i].innerHTML = currentSpanData;
         }
 
         else if (calculatedDifference > 2) {
-            fClass[i].style.backgroundColor = "yellow";
+            fClass[i].style.backgroundColor = "#fff6a9";
+            fClass[i].style.border = "1px solid #ff832a";
+            fClass[i].style.margin = "0px 5px 0px 0px";
+            fClass[i].style.padding = "1px";
+            fClass[i].innerHTML = currentSpanData;
         }
 
     }
