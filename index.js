@@ -1,9 +1,6 @@
 function calculateDifference(numberOne, numberTwo) {
     let result = numberOne - numberTwo;
-    if (isNaN(result)) {
-        return -1;
-    }
-
+    if (isNaN(result)) { return -1; }
     return result;
 }
 
@@ -17,7 +14,6 @@ function colorDateDependingOnAge() {
         let currentSpanData = tmpSpanData.replace(' — ', '');
         let sdl = currentSpanData.length; // spanDataLength
         let lastFourChars = currentSpanData.charAt(sdl - 4) + currentSpanData.charAt(sdl - 3) + currentSpanData.charAt(sdl - 2) + currentSpanData.charAt(sdl - 1);
-
         let calculatedDifference = calculateDifference(currentYear, lastFourChars);
 
         if (calculatedDifference <= 2 && calculatedDifference >= 0) {
