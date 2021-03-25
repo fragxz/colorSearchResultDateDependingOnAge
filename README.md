@@ -1,7 +1,6 @@
 # colorSearchResultDateDependingOnAge
 colors the (Google) Search Result depending on Age
 
-**How it looks**
+## Preview ##
 
-
-
+![Preview of the changed Search Results](https://raw.githubusercontent.com/fragxz/colorSearchResultDateDependingOnAge/main/colorSearchResult-preview.png)
