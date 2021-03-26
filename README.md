@@ -8,7 +8,7 @@ colors the (Google) Search Result depending on Age
 ## Usage ##
 
 Firefox:
-1) Download the files
+1) Download the files from the "src" folder
 2) Enter "about:debugging" into the adress bar
 3) Choose "Temporary Addon" 
 4) Choose the manifest.json
